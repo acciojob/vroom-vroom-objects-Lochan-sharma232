@@ -3,7 +3,7 @@ function Car(make, model) {//car is a prototype model
 	this.make=make;//instances of a car make and model
 	this.model=model;
 }
-car prototype.getMakeModel=function() {
+Car prototype.getMakeModel=function() {
 	return `${this.make}${this.model}`
 	
 }
