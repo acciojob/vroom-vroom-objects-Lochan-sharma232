@@ -15,7 +15,7 @@ SportsCar.prototype=Object.create(Car.prototype);
 SportsCar.prototype.constructor=SportsCar;
 
 SportsCar.prototype.getToSepeed=function();
-return this.toSpeed();
+return this.toSpeed;
 
 // Do not change the code below
 window.Car = Car;
